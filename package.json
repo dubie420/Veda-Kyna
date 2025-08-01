@@ -1,0 +1,17 @@
+{
+  "name": "rebirthvault",
+  "version": "1.0.0",
+  "description": "Ethereum symbolic burn vault and token with redirected burns",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy:factory": "node scripts/deploy_factory_and_vault.js",
+    "deploy:token": "node scripts/deploy_token.js",
+    "brute:salt": "node scripts/brute_force_salt.js"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.2",
+    "@openzeppelin/contracts": "^4.9.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.20.0"
+  }
+}
